@@ -16,14 +16,14 @@
         <h3 class="ra">RA: 2411852</h3>
         <nav>
             <ul>
-                <li><a href="#home">início</a></li>
-                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#sobremim">Sobre Mim</a></li>
+                <li><a href="#linguagem">Linguagens</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
 
-    <section>
+    <section id="sobremim">
         <article>
             <h2>Sobre Mim</h2>
             <p><strong> ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor,</strong>
@@ -36,47 +36,56 @@
 
     </section>
 
-    <table border="1">
-        <tr>
-            <th>Linguagem</th>
-            <th>Nivel</th>
-        </tr>
+    <section id="linguagem">
 
-        <tr>
+        <div class="tabela">
+            <table>
+                <tr>
+                    <th>Linguagem</th>
+                    <th>Nivel</th>
+                </tr>
 
-            <td>Html</td>
-            <td>Basico</td>
-        </tr>
+                <tr>
 
-        <tr>
-            <td>Css</td>
-            <td>Basico</td>
-        </tr>
+                    <td>Html</td>
+                    <td>Basico</td>
+                </tr>
 
-        <tr>
-            <td>PHP</td>
-            <td>Basico</td>
-        </tr>
+                <tr>
+                    <td>Css</td>
+                    <td>Basico</td>
+                </tr>
 
-        <tr>
-            <td>Java</td>
-            <td>Iniciante</td>
-        </tr>
+                <tr>
+                    <td>PHP</td>
+                    <td>Basico</td>
+                </tr>
 
-    </table>
+                <tr>
+                    <td>Java</td>
+                    <td>Iniciante</td>
+                </tr>
 
-    <form action="https://formspree.io/f/mqazojga" method="post">
-        <label for="nome">Nome</label><br>
-        <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
+            </table>
+        </div>
+    </section>
 
-        <label for="nome">email</label><br>
-        <input type="email" id="email" placeholder="Digite seu email"><br><br>
+    <div class="formulario">
+        <form action="https://formspree.io/f/mqazojga" method="post">
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" placeholder="Digite seu nome"><br><br>
 
-        <label>Comentario</label><br>
-        <textarea id="comentario" placeholder="Digite seu comentario"></textarea><br><br>
+            <label for="nome">email</label><br>
+            <input type="email" id="email" placeholder="Digite seu email"><br><br>
 
-        <input type="submit" value="Enviar">
+    </div>
+
+    <label>Comentario</label><br>
+    <textarea id="comentario" placeholder="Digite seu comentario"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
     </form>
+
 
 
 
