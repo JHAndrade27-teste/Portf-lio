@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,6 @@ body {
     left: 2%;
     width: 90px;
     height: 100px;
-
 }
 
 header {
@@ -28,7 +27,6 @@ header {
 }
 
 nav ul {
-
     list-style: none;
     margin: 0;
     padding: 0;
@@ -40,22 +38,22 @@ header nav ul li {
     margin-right: 20px;
 }
 
-p{
+p {
     background-color: rgba(50, 50, 50);
+    color:  rgb(255, 255, 255);;
 }
 
-.tabela{
+.tabela {
     width: 80%;
     margin: 0 auto;
 }
 
 table {
     margin: 0 auto;
-    width: 100px;
+    width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
-    box-shadow: 0 2px  4px rgba(0, 0, 0, 0.1);
-
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 th,
@@ -67,15 +65,14 @@ td {
     border-bottom: none;
 }
 
-th{
+th {
     font-weight: bold;
 }
 
-tr{
-    background-color:#f2f2f2;
+tr {
+    background-color: #f2f2f2;
     font-size: 20px;
 }
-
 
 .form-container {
     display: flex;
@@ -90,15 +87,13 @@ tr{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.form-container label{
+.form-container label {
     text-align: left;
     width: 100%;
 }
 
-
-
-input, textarea {
-    width: 100%;
+input,
+textarea {
     padding: 10px;
     margin: 5px 0;
     border: 1px solid #ccc;
@@ -116,5 +111,23 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: rgb(50, 50, 50);
+    background-color: rgb(70, 70, 70);
+}
+
+
+footer {
+    background-color: rgba(50, 50, 50);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
