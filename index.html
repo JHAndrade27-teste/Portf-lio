@@ -1,113 +1,107 @@
 <!DOCTYPE html>
-<html lang="pt_br">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio João Henrique</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio João Henrique</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-    <header>
-        <img src="imagem/teste.jpg" alt="João Henrique" class="imagem">
+  <header>
+    <img src="imagem/teste.jpg" alt="João Henrique" class="imagem" />
 
-        <h1 class="ra">Portifolio João Henrique</h1>
-        <h3 class="ra">RA: 2411852</h3>
-        <nav>
-            <ul>
-                <li><a href="#sobremim">Sobre Mim</a></li>
-                <li><a href="#linguagem">Linguagens</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
+    <a href="https://wa.me/5517996592390" target="_blank" id="whats">
+      <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="icon" />
+      Entre em Contato
+    </a>
 
+    <h1 class="ra">Portfólio João Henrique</h1>
+    <h3 class="ra">RA: 2411852</h3>
+
+    <nav>
+      <ul>
+        <li><a href="#sobremim">Sobre Mim</a></li>
+        <li><a href="#linguagem">Linguagens</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <section id="sobremim">
-        <article>
-            <h2>Sobre Mim</h2>
-            <p><strong>"Sou apaixonado por programação e busco constantemente aprimorar minhas habilidades. Tenho
-                    experiência com diversas linguagens, como PHP, Java, HTML, C e CSS. Atualmente, estou cursando
-                    Analise e Desenvolvimento de Sistemas na UNORTE e aproveitando cada oportunidade para aprender mais
-                    sobre desenvolvimento. Além da programação, gosto de me divertir com games e explorar novas
-                    tecnologias."</strong>
-        </article>
+      <article>
+        <h2>Sobre Mim</h2>
+        <p><strong>Sou apaixonado por programação e busco constantemente aprimorar minhas habilidades. Tenho experiência com diversas linguagens, como PHP, Java, HTML, C e CSS. Atualmente, estou cursando Análise e Desenvolvimento de Sistemas na UNORTE e aproveitando cada oportunidade para aprender mais sobre desenvolvimento. Além da programação, gosto de me divertir com games e explorar novas tecnologias.</strong></p>
+      </article>
 
-        <article>
-            <h2>Intereses</h2>
-            <p>Estou empolgado com minha jornada de aprendizado em programação e estou focado em me aperfeiçoar em HTML, CSS, C e PHP. Cada uma dessas linguagens tem um papel crucial na minha formação como desenvolvedor.</p>
-        </article><br>
-
+      <article>
+        <h2>Interesses</h2>
+        <p>Estou empolgado com minha jornada de aprendizado em programação e estou focado em me aperfeiçoar em HTML, CSS, C e PHP. Cada uma dessas linguagens tem um papel crucial na minha formação como desenvolvedor.</p>
+      </article>
     </section>
 
     <section id="linguagem">
-
-        <div class="tabela">
-            <table>
-                <tr>
-                    <th>Linguagem</th>
-                    <th>Nivel</th>
-                </tr>
-
-                <tr>
-
-                    <td>Html</td>
-                    <td>Basico</td>
-                </tr>
-
-                <tr>
-                    <td>Css</td>
-                    <td>Basico</td>
-                </tr>
-
-                <tr>
-                    <td>PHP</td>
-                    <td>Basico</td>
-                </tr>
-
-                <tr>
-                    <td>Java</td>
-                    <td>Iniciante</td>
-                </tr>
-
-            </table>
-        </div>
+      <h2>Linguagens</h2>
+      <div class="tabela">
+        <table>
+          <tr>
+            <th>Linguagem</th>
+            <th>Nível</th>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <td>PHP</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <td>Java</td>
+            <td>Iniciante</td>
+          </tr>
+        </table>
+      </div>
     </section>
 
-    <form class="form-container" action="https://formspree.io/f/mqazojga" method="post">
-        <label for="nome">Nome</label><br>
-        <input style="width: 100%" type="text" name="name" id="name" placeholder="Digite seu nome" required><br><br>
-    
-        <label for="nome">Email</label><br>
-        <input style="width: 100%" type="email" name="name" id="email" placeholder="Digite seu email" required><br><br>
-        
-        <label class="radio-label">
-            <input type="radio" id="masculino" name="gender" value="masculino">
-            Masculino
-        </label>
-        <label class="radio-label">
-            <input type="radio" id="feminino" name="gender" value="feminino">
-            Feminino
-        </label><br><br>
-        
-        
-        
-    
-        <label for="story">Comentário</label><br>
-        <textarea style="width: 100%" name="name" id="story" placeholder="Digite seu comentário" required></textarea><br><br>
-    
-        <input type="submit" value="Enviar">
-    </form>
-    
-    <footer id="contato">
-        <h2>Redes Sociais</h2>
-        <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
-        <p>Instagram: <a href="https://instagram.com/seuusuario" target="_blank">instagram.com/seuusuario</a></p>
-    </footer>
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <form class="form-container" action="https://formspree.io/f/mqazojga" method="POST">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
 
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu email" required />
 
+        <div style="margin-bottom: 16px;">
+          <label class="radio-label">
+            <input type="radio" name="gender" value="masculino" /> Masculino
+          </label>
+          <label class="radio-label">
+            <input type="radio" name="gender" value="feminino" /> Feminino
+          </label>
+        </div>
 
+        <label for="story">Comentário</label>
+        <textarea name="message" id="story" placeholder="Digite seu comentário" required></textarea>
 
+        <input type="submit" value="Enviar" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Redes Sociais</h2>
+    <p>GitHub: <a href="https://github.com/seuusuario" target="_blank">github.com/seuusuario</a></p>
+    <p>Instagram: <a href="https://instagram.com/seuusuario" target="_blank">instagram.com/seuusuario</a></p>
+  </footer>
 </body>
 
 </html>
